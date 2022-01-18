@@ -12,18 +12,19 @@ python audio_tagging.py --video_path "path/to/videos"
 ```
 
 ### audio_tagging.py arguments
-|argument|description|type|default|
+|<sub> argument|<sub> description|<sub> type|<sub>default|
 |---|---|---|---|
-|`--video_path`|path to video or videos for tagging|str|"path/to/videos/"|
-|`--model_path`|path to pre-trained audio tagging model|str|"pretrained/CNN14_Vasulka_1s.pth"|
-|`--tag_names`|tag names used by the model|str|"pretrained/tag_names.txt"|
-|`--output_path`|output path for predicitions|str|"output/"|
-|`--gpu_predict`|if True, tagging runs on GPU|bool|False|
-|`--gpu_encode`|if True, video encoding runs on GPU|bool|False|
-|`--save_video`|if True, annotations are rendered to video|bool|False|
-|`--video_bitrate`|if None, bitrate is set to video height * 4500|int|None|
-|`--plot_predict`|if True, prediction plot is saved to .png|bool|False|
-|`--skip_videos`|list of videos to skip in video_path|str|[]|
+|<sub> `--video_path` |<sub>path to video or videos for tagging|<sub>str|<sub>"path/to/videos/"|
+|<sub>`--model_path`|<sub> path to pre-trained audio tagging model|<sub>str|<sub>"pretrained/CNN14_Vasulka_1s.pth"|
+|<sub>`--tag_names`| <sub> tag names used by the model|<sub>str|<sub>"pretrained/tag_names.txt"|
+|<sub>`--output_path`|<sub>output path for predicitions|<sub>str|<sub>"output/"|
+|<sub>`--gpu_predict`|<sub>if True, tagging runs on GPU|<sub>bool|False|
+|<sub>`--gpu_encode`|<sub>if True, video encoding runs on GPU|<sub>bool|False|
+|<sub>`--save_video`|<sub>if True, annotations are rendered to video|<sub>bool|False|
+|<sub>`--video_bitrate`|<sub>if None, bitrate is set to video height * 4500|<sub>int|None|
+|<sub>`--plot_predict`|<sub>if True, prediction plot is saved to .png|<sub>bool|False|
+|<sub>`--skip_videos`|<sub>list of videos to skip in video_path|<sub>str|[]|
+
 
 ### The model allows you to tag these categories:
 

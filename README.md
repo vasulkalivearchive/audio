@@ -31,15 +31,15 @@ python audio_tagging.py --video_path "path/to/videos"
 ### audio_tagging.py arguments
 |<sub> argument|<sub> description|<sub> type|<sub>default|
 |---|---|---|---|
-|<sub> `--video_path` |<sub>path to video or videos for tagging|<sub>str|<sub>"path/to/videos/"|
-|<sub>`--model_path`|<sub> path to pre-trained audio tagging model|<sub>str|<sub>"pretrained/CNN14_Vasulka_1s.pth"|
+|<sub> `--video_path` |<sub>path to a video or videos for tagging|<sub>str|<sub>"path/to/videos/"|
+|<sub>`--model_path`|<sub> path to a pre-trained audio tagging model|<sub>str|<sub>"pretrained/CNN14_Vasulka_1s.pth"|
 |<sub>`--tag_names`| <sub> tag names used by the model|<sub>str|<sub>"pretrained/tag_names.txt"|
 |<sub>`--output_path`|<sub>output path for predicitions|<sub>str|<sub>"output/"|
-|<sub>`--gpu_predict`|<sub>if True, tagging runs on GPU|<sub>bool|<sub>False|
-|<sub>`--gpu_encode`|<sub>if True, video encoding runs on GPU|<sub>bool|<sub>False|
-|<sub>`--save_video`|<sub>if True, annotations are rendered to video|<sub>bool|<sub>False|
-|<sub>`--video_bitrate`|<sub>if None, bitrate is set to video height * 4500|<sub>int|<sub>None|
-|<sub>`--plot_predict`|<sub>if True, prediction plot is saved to .png|<sub>bool|<sub>False|
+|<sub>`--gpu_predict`|<sub>if True, tagging will run on a GPU|<sub>bool|<sub>False|
+|<sub>`--gpu_encode`|<sub>if True, the video encoding will run on a GPU|<sub>bool|<sub>False|
+|<sub>`--save_video`|<sub>if True, annotations will be rendered to video|<sub>bool|<sub>False|
+|<sub>`--video_bitrate`|<sub>if None, bitrate will be set to video height * 4500|<sub>int|<sub>None|
+|<sub>`--plot_predict`|<sub>if True, prediction plot will be saved to .png|<sub>bool|<sub>False|
 |<sub>`--skip_videos`|<sub>list of videos to skip in video_path|<sub>str|<sub>[]|
 
 ### Dependencies

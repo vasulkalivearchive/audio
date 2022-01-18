@@ -1,5 +1,6 @@
 # vasulkalivearchive – Audio Tagging
-This repository contains a console application for tagging audio tracks of videos using a [CNN14](https://github.com/qiuqiangkong/audioset_tagging_cnn) [1] convolutional neural network trained on a dataset of works by Steina and Woody Vasulka.
+This repository contains a console application for tagging audio tracks of videos using a [CNN14](https://github.com/qiuqiangkong/audioset_tagging_cnn) [1] convolutional neural network trained on a dataset of works by Steina and Woody Vasulka.  
+The model trained on Vasulka dataset can be downloaded [here](odkaznamodel).
 
 ### The model allows you to tag these categories:
 

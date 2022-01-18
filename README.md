@@ -42,7 +42,6 @@ python audio_tagging.py --video_path "path/to/videos"
 |<sub>`--skip_videos`|<sub>list of videos to skip in video_path|<sub>str|<sub>[]|
 
 ### Dependencies
-<sub>
 matplotlib==3.3.3
 numpy==1.19.5
 opencv_python==4.5.1.48

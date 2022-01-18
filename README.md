@@ -42,7 +42,6 @@ python audio_tagging.py --video_path "path/to/videos"
 |<sub>`--skip_videos`|<sub>list of videos to skip in video_path|<sub>str|<sub>[]|
 
 ### Dependencies
-```
 <sub>
 matplotlib==3.3.3
 numpy==1.19.5
@@ -52,8 +51,7 @@ torchlibrosa==0.0.4
 tqdm==4.61.1
 torch==1.5.0+cu101
 librosa==0.8.0
-  </sub>
 ```
 ### References
-This repository uses the CNN14 model proposed in:
+This repository uses the CNN14 model proposed in:  
 [1] Qiuqiang Kong, Yin Cao, Turab Iqbal, Yuxuan Wang, Wenwu Wang, and Mark D. Plumbley. "Panns: Large-scale pretrained audio neural networks for audio pattern recognition." IEEE/ACM Transactions on Audio, Speech, and Language Processing 28 (2020): 2880-2894.

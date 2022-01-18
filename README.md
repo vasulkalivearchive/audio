@@ -1,4 +1,4 @@
-# mediaArtLiveArchive – Audio Tagging
+# vasulkalivearchive – Audio Tagging
 This repository contains a console application used for audio content tagging in videos.
 
 ### Running the console application

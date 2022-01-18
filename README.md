@@ -1,12 +1,12 @@
 # vasulkalivearchive – Audio Tagging
-This repository contains a console application used for audio content tagging in videos.
+This repository contains a console application for tagging audio tracks of videos using a CNN14 [1] convolutional neural network trained on a dataset of works by Steina and Woody Vasulka.
 
 ### Running the console application
-Example 1 – Tagging just one video
+Example 1 – Tagging one video
 ```
 python audio_tagging.py --video_path "path/to/video/video.mp4"
 ```
-Example 2 – Tagging multiple videos in one folder
+Example 2 – Tagging multiple videos contained in one folder
 ```
 python audio_tagging.py --video_path "path/to/videos"
 ```
@@ -52,3 +52,6 @@ tqdm==4.61.1
 torch==1.5.0+cu101
 librosa==0.8.0
 ```
+### References
+This repository uses the CNN14 model proposed in:
+[1] Qiuqiang Kong, Yin Cao, Turab Iqbal, Yuxuan Wang, Wenwu Wang, and Mark D. Plumbley. "Panns: Large-scale pretrained audio neural networks for audio pattern recognition." IEEE/ACM Transactions on Audio, Speech, and Language Processing 28 (2020): 2880-2894.

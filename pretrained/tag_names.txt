@@ -1,10 +1,10 @@
-Music (acoustic)
-Music (electronic)
-Music (violin)
-Music (vocal)
+Acoustic music
+Electronic music  
+Violin music
+Vocal music
 Noise
-Noise (air)
-Noise (car)
-Noise (fire)
-Noise (water)
+Air (noise)
+Car (noise)
+Fire (noise)
+Water (noise)
 Speech

@@ -6,15 +6,15 @@ The model trained on the Vasulka dataset can be downloaded [here](odkaznamodel).
 
 | **Tag name**             | **F1-score** [%] |
 |--------------------------|----------|
-| Music (acoustic)         | 86.06    |
-| Music (electronic)       | 91.15    |
-| Music (violin)           | 83.96    |
-| Music (vocal)            | 79.58    |
+| Acoustic music        | 86.06    |
+| Electronic music       | 91.15    |
+| Violin playing          | 83.96    |
+| Vocal Music            | 79.58    |
 | Noise                    | 93.39    |
-| Noise (air)              | 78.55    |
-| Noise (car)              | 77.04    |
-| Noise (fire)             | 96.55    |
-| Noise (water)            | 86.79    |
+| Air (noise)              | 78.55    |
+| Car (noise)              | 77.04    |
+| Fire (noise)             | 96.55    |
+| Water (noise)            | 86.79    |
 | Speech                   | 93.39    |
 
 

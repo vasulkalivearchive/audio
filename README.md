@@ -1,6 +1,22 @@
 # vasulkalivearchive – Audio Tagging
 This repository contains a console application for tagging audio tracks of videos using a CNN14 [1] convolutional neural network trained on a dataset of works by Steina and Woody Vasulka.
 
+### The model allows you to tag these categories:
+
+| **Tag name**             | **F1-score** [%] |
+|--------------------------|----------|
+| Music (acoustic)         | 86.06    |
+| Music (electronic)       | 91.15    |
+| Music (violin)           | 83.96    |
+| Music (vocal)            | 79.58    |
+| Noise                    | 93.39    |
+| Noise (air)              | 78.55    |
+| Noise (car)              | 77.04    |
+| Noise (fire)             | 96.55    |
+| Noise (water)            | 86.79    |
+| Speech                   | 93.39    |
+
+
 ### Running the console application
 Example 1 – Tagging one video
 ```
@@ -25,24 +41,9 @@ python audio_tagging.py --video_path "path/to/videos"
 |<sub>`--plot_predict`|<sub>if True, prediction plot is saved to .png|<sub>bool|<sub>False|
 |<sub>`--skip_videos`|<sub>list of videos to skip in video_path|<sub>str|<sub>[]|
 
-
-### The model allows you to tag these categories:
-
-| **Tag name**             | **F1-score** [%] |
-|--------------------------|----------|
-| Music (acoustic)         | 86.06    |
-| Music (electronic)       | 91.15    |
-| Music (violin)           | 83.96    |
-| Music (vocal)            | 79.58    |
-| Noise                    | 93.39    |
-| Noise (air)              | 78.55    |
-| Noise (car)              | 77.04    |
-| Noise (fire)             | 96.55    |
-| Noise (water)            | 86.79    |
-| Speech                   | 93.39    |
-
 ### Dependencies
 ```
+<sub>
 matplotlib==3.3.3
 numpy==1.19.5
 opencv_python==4.5.1.48
@@ -51,6 +52,7 @@ torchlibrosa==0.0.4
 tqdm==4.61.1
 torch==1.5.0+cu101
 librosa==0.8.0
+  </sub>
 ```
 ### References
 This repository uses the CNN14 model proposed in:

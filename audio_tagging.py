@@ -79,17 +79,17 @@ def audio_tagging(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Audio Tagging')
-    parser.add_argument('--video_path', type=str, default="I:/ZKOUSKY/SIkoraP/vasulkas/videos",
+    parser.add_argument('--video_path', type=str, default="path/to/videos",
                         help='path to video (or videos) for tagging')
     parser.add_argument('--model_path', type=str, default="pretrained/CNN14_Vasulka_1s.pth",
                         help='path to a pre-trained audio tagging model')
     parser.add_argument('--tag_names', type=str, default="pretrained/tag_names.txt",
                         help='tag names used by the model')
-    parser.add_argument('--output_path', type=str, default="C:/_vasulka_audio",
+    parser.add_argument('--output_path', type=str, default="output/",
                         help='output path for predicitions')
-    parser.add_argument('--gpu_predict', type=bool, default=True,
+    parser.add_argument('--gpu_predict', type=bool, default=False,
                         help='if True, tagging runs on GPU')
-    parser.add_argument('--gpu_encode', type=bool, default=True,
+    parser.add_argument('--gpu_encode', type=bool, default=False,
                         help='if True, video encoding runs on GPU')
     parser.add_argument('--save_video', type=bool, default=False,
                         help='if True, annotations are rendered to video')

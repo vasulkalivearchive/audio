@@ -1,5 +1,5 @@
 # vasulkalivearchive – Audio Tagging
-[![(License MIT 1.0)](https://img.shields.io/badge/license-MIT%201.0-blue.svg)][license]
+[(License MIT 1.0)](https://img.shields.io/badge/license-MIT%201.0-blue.svg)][license]
 
 [license]: LICENSE
 

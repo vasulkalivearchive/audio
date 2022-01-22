@@ -1,4 +1,6 @@
 # MediaArtLiveArchive – Audio Tagging
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This repository contains a console application for tagging audio tracks of videos using a [CNN14](https://github.com/qiuqiangkong/audioset_tagging_cnn) convolutional neural network trained on a dataset of works by Steina and Woody Vasulka.  
 The model trained on the Vasulka dataset can be downloaded [here](odkaznamodel).
 
@@ -29,18 +31,18 @@ python audio_tagging.py --video_path "path/to/videos"
 ```
 
 ### audio_tagging.py arguments
-|<sub> argument|<sub> description|<sub> type|<sub>default|
+| argument| description| type|default|
 |---|---|---|---|
-|<sub> `--video_path` |<sub>path to a video or videos for tagging|<sub>str|<sub>"path/to/videos/"|
-|<sub>`--model_path`|<sub> path to a pre-trained audio tagging model|<sub>str|<sub>"pretrained/CNN14_Vasulka_1s.pth"|
-|<sub>`--tag_names`| <sub> tag names used by the model|<sub>str|<sub>"pretrained/tag_names.txt"|
-|<sub>`--output_path`|<sub>output path for predicitions|<sub>str|<sub>"output/"|
-|<sub>`--gpu_predict`|<sub>if True, tagging will run on a GPU|<sub>bool|<sub>False|
-|<sub>`--gpu_encode`|<sub>if True, video encoding will run on a GPU|<sub>bool|<sub>False|
-|<sub>`--save_video`|<sub>if True, annotations will be rendered directly to the video|<sub>bool|<sub>False|
-|<sub>`--video_bitrate`|<sub>if None, bitrate will be set to video height * 4500|<sub>int|<sub>None|
-|<sub>`--plot_predict`|<sub>if True, prediction plot will be saved to a .png file|<sub>bool|<sub>False|
-|<sub>`--skip_videos`|<sub>list of videos to skip in video_path|<sub>str|<sub>[]|
+| `--video_path` |path to a video or videos for tagging|str|"path/to/videos/"|
+|`--model_path`| path to a pre-trained audio tagging model|str|"pretrained/CNN14_Vasulka_1s.pth"|
+|`--tag_names`|  tag names used by the model|str|"pretrained/tag_names.txt"|
+|`--output_path`|output path for predicitions|str|"output/"|
+|`--gpu_predict`|if True, tagging will run on a GPU|bool|False|
+|`--gpu_encode`|if True, video encoding will run on a GPU|bool|False|
+|`--save_video`|if True, annotations will be rendered directly to the video|bool|False|
+|`--video_bitrate`|if None, bitrate will be set to video height * 4500|int|None|
+|`--plot_predict`|if True, prediction plot will be saved to a .png file|bool|False|
+|`--skip_videos`|list of videos to skip in video_path>str|[]|
 
 ### Dependencies
 ```

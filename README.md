@@ -37,7 +37,7 @@ python audio_tagging.py --video_path "path/to/videos"
 | argument| description| type|default|
 |---|---|---|---|
 | `--video_path` |path to a video or videos for tagging|str|"path/to/videos/"|
-|`--model_path`| path to a pre-trained audio tagging model|str|"model/CNN14_Vasulka_1s.pth"|
+|`--model_path`| path to a pre-trained audio tagging model|str|"model/CNN14_Vasulka.pth"|
 |`--tag_names`|  tag names used by the model|str|"pretrained/tag_names.txt"|
 |`--output_path`|output path for predicitions|str|"output/"|
 |`--gpu_predict`|if True, tagging will run on a GPU|bool|False|

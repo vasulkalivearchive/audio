@@ -42,8 +42,8 @@ python audio_tagging.py --video_path "path/to/videos"
 |`--output_path`|output path for predicitions|str|"output/"|
 |`--gpu_predict`|if True, tagging will run on a GPU|bool|False|
 |`--gpu_encode`|if True, video encoding will run on a GPU|bool|False|
-|`--save_video`|if True, annotations will be rendered directly to the video|bool|False|
-|`--video_bitrate`|if None, bitrate will be set to video height * 4500|int|None|
+|`--save_video`|if True, a video with rendered tags will be created|bool|False|
+|`--video_bitrate`|if None, bitrate will be set to a default value|int|None|
 |`--plot_predict`|if True, prediction plot will be saved to a .png file|bool|False|
 |`--skip_videos`|list of videos to skip in video_path>str|[]|
 

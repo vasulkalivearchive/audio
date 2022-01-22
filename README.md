@@ -32,12 +32,7 @@ python audio_tagging.py --video_path "path/to/videos"
 
 ### audio_tagging.py arguments
 
-.table-wrapper {
-  overflow-x: scroll;
-}
-
-
-<div class="table-wrapper" markdown="block">  
+<div markdown="block" style="overflow-x: scroll;">  
 
 | argument| description| type|default|
 |---|---|---|---|

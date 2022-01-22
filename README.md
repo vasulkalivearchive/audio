@@ -32,7 +32,13 @@ python audio_tagging.py --video_path "path/to/videos"
 
 ### audio_tagging.py arguments
 
+.table-wrapper {
+  overflow-x: scroll;
+}
+
+
 <div class="table-wrapper" markdown="block">  
+
 | argument| description| type|default|
 |---|---|---|---|
 | `--video_path` |path to a video or videos for tagging|str|"path/to/videos/"|
@@ -45,6 +51,7 @@ python audio_tagging.py --video_path "path/to/videos"
 |`--video_bitrate`|if None, bitrate will be set to video height * 4500|int|None|
 |`--plot_predict`|if True, prediction plot will be saved to a .png file|bool|False|
 |`--skip_videos`|list of videos to skip in video_path>str|[]|
+
 </div>
   
 ### Dependencies

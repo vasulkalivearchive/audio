@@ -65,7 +65,7 @@ This repository uses the [CNN14](https://github.com/qiuqiangkong/audioset_taggin
 Qiuqiang Kong, Yin Cao, Turab Iqbal, Yuxuan Wang, Wenwu Wang, and Mark D. Plumbley. "Panns: Large-scale pretrained audio neural networks for audio pattern recognition." IEEE/ACM Transactions on Audio, Speech, and Language Processing 28 (2020): 2880-2894.
 
 ### Cite
-
+Miklanek, S. (2021). MediaArtLiveArchive – Audio Tagging. *vasulkalivearchive/audio.* computer software. Retrieved 2020, from https://github.com/vasulkalivearchive/audio. 
 
 ### Acknowledgements
 [![plot](./img/logo_TACR_zakl.png)](https://www.tacr.cz/)

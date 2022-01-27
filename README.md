@@ -4,11 +4,9 @@
 This repository contains a console application for tagging audio tracks of videos using a [CNN14](https://github.com/qiuqiangkong/audioset_tagging_cnn) convolutional neural network trained on a dataset of works by Steina and Woody Vasulka.  
 The model trained on the Vasulka dataset can be downloaded [here](odkaznamodel).
 
-![plot](./preview/steina-violin.png)
-
+![plot](./img/steina-violin.png)
 
 ### The model allows you to tag these categories:
-
 | **Tag name**             | **F1-score** [%] |
 |--------------------------|----------|
 | Acoustic music        | 86.06    |
@@ -34,7 +32,6 @@ python audio_tagging.py --video_path "path/to/videos"
 ```
 
 ### audio_tagging.py arguments
-
 <div markdown="block" style="overflow-x: scroll;">  
 
 | argument| description| type|default|
@@ -63,7 +60,9 @@ tqdm==4.61.1
 torch==1.5.0+cu101
 librosa==0.8.0
 ```
-### Acknowledgements
-
+### References
 This repository uses the [CNN14](https://github.com/qiuqiangkong/audioset_tagging_cnn) model proposed in:  
 Qiuqiang Kong, Yin Cao, Turab Iqbal, Yuxuan Wang, Wenwu Wang, and Mark D. Plumbley. "Panns: Large-scale pretrained audio neural networks for audio pattern recognition." IEEE/ACM Transactions on Audio, Speech, and Language Processing 28 (2020): 2880-2894.
+
+### Acknowledgements
+![plot](./img/logo_TACR_zakl.png)

@@ -68,4 +68,6 @@ Kong, Q., Cao, Y., Iqbal, T., Wang, Y., Wang, W., & Plumbley, M. D. (2020). *PAN
 Miklanek, S. (2022). *MediaArtLiveArchive – Audio Tagging* [Software]. https://github.com/vasulkalivearchive/audio
 
 ### Acknowledgements
+This project is co-financed from the state budget by the Technology agency of the Czech Republic under the ETA Progamme.
+
 [![plot](./img/logo_TACR_zakl.png)](https://www.tacr.cz/)

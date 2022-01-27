@@ -64,5 +64,8 @@ librosa==0.8.0
 This repository uses the [CNN14](https://github.com/qiuqiangkong/audioset_tagging_cnn) model proposed in:  
 Qiuqiang Kong, Yin Cao, Turab Iqbal, Yuxuan Wang, Wenwu Wang, and Mark D. Plumbley. "Panns: Large-scale pretrained audio neural networks for audio pattern recognition." IEEE/ACM Transactions on Audio, Speech, and Language Processing 28 (2020): 2880-2894.
 
+### Cite
+Miklanek, S., & Sikora, P. (2021). MediaArtLiveArchive – Audio Tagging. vasulkalivearchive/audio. computer software. Retrieved 202x, from https://github.com/vasulkalivearchive/audio. 
+
 ### Acknowledgements
 [![plot](./img/logo_TACR_zakl.png)](https://www.tacr.cz/)

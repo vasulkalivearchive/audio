@@ -68,6 +68,6 @@ Kong, Q., Cao, Y., Iqbal, T., Wang, Y., Wang, W., & Plumbley, M. D. (2020). *PAN
 Miklanek, S. (2022). *MediaArtLiveArchive – Audio Tagging* [Software]. https://github.com/vasulkalivearchive/audio
 
 ### Acknowledgements
-Project TL02000270 was co-financed from the state budget by the Technology agency of the Czech Republic under the ETA Progamme.
+The MediaArtLiveArchive – Audio Tagging software was implemented with the financial participation of the Technical Agency of the Czech Republic under the ÉTA programme. It is an output of the project Media Art Live Archive: Intelligent Interface for Interactive Mediation of Cultural Heritage (No. TL02000270). 
 
 [![plot](./img/logo_TACR_zakl.png)](https://www.tacr.cz/)
